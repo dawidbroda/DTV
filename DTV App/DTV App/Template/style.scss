@@ -1,0 +1,64 @@
+/* global for desktop */
+body {
+	background-color: #383838;
+}
+/* header */
+.my-header {
+	width: 100%;
+	.stuff{
+		width: 100%;
+		height: 180px;
+		background-color: black;
+	}
+}
+/* nav */
+.navbar {
+	width: 100%;
+	height: 40px;
+	background-color: #AF0000;
+	border: 2px solid #321B16;
+	border-radius: 3px;
+}
+
+/* TV and Shop buttons */
+.tv-shop-button {
+	width: 100%;
+	height: 50px;
+	background-color: #1C1C1C;
+	border: 2px solid #131313;
+	margin-top: 15px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	color: white;
+	font-size: 30px;
+}
+/* tv */
+.my-tv {
+	width: 100%;
+	height: 750px;
+	background-color: #262626;
+	border: 2px solid #131313;
+	.stream {
+		width: 95%;
+		background-color: #141414;
+		margin-top: 50px;
+		margin-left: 15px;
+		.content {
+			width: 100%;
+			height: 315px;
+		}
+	}
+	.side {
+		@extend .stream;
+		height: 300px;
+		margin-left: none;
+		margin-right: 15px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-content: flex-start;
+		.item {
+			width: 33.3%;
+		}
+	}
+}
