@@ -30,3 +30,5 @@ F:\Csharp projects\DTV\DTV App\DTV App\obj\Debug\netcoreapp2.1\DTV App.Views.pdb
 F:\Csharp projects\DTV\DTV App\DTV App\obj\Debug\netcoreapp2.1\DTV App.dll
 F:\Csharp projects\DTV\DTV App\DTV App\obj\Debug\netcoreapp2.1\DTV App.pdb
 F:\Csharp projects\DTV\DTV App\DTV App\obj\Debug\netcoreapp2.1\DTV App.csproj.CopyComplete
+F:\Csharp projects\DTV\DTV App\DTV App\obj\Debug\netcoreapp2.1\Razor\Views\Administration\AdminLayout.g.cshtml.cs
+F:\Csharp projects\DTV\DTV App\DTV App\obj\Debug\netcoreapp2.1\Razor\Views\Administration\Login.g.cshtml.cs
