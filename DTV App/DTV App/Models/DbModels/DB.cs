@@ -10,7 +10,6 @@ namespace DTV_App.Models.DbModels
     {
         public DB(DbContextOptions<DB> options ) : base(options)
         {
-
         }
 
         DbSet<Admins> Admins { get; set; }

@@ -1,6 +1,6 @@
-﻿
+﻿@model DTV_App.Models.ViewModels.LoginAdminVM
+
 @{
-    ViewData["Title"] = "Login";
     Layout = null;
 }
 
@@ -24,11 +24,20 @@
 <body>
     <div class="content">
         <div class="form">
-            <input type="text" class="login-style">
-            <input type="password" class="login-style">
-            <input type="button" class="login-button" value="Zaloguj">
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary(true)
+                @Html.LabelFor(model => model.Login)
+                @Html.EditorFor(Model => Model.Login, null, new { htmlAttributes = new { @class = "login-style" }})
+                @Html.ValidationMessageFor(Model => Model.Login)
+                <br />
+                @Html.LabelFor(model => model.Password)
+                @Html.Password("Password", null, new { @class = "login-style" })
+                @Html.ValidationMessageFor(Model => Model.Password)
+                <input type = "submit" value = "Zaloguj" class="login-button" />
+            }
         </div>
     </div>
 </body>
 </html>
-
