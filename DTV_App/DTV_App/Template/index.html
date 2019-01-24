@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" conten="width=device-width, initial-scale=1">
+    <title>@ViewData["Title"] - DTV</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+          crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header class="my-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="stuff">
+                        <!-- blank place-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="my-nav">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="navbar">
+                        <!-- blank place -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="tv-shop-buttons">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <input type="button" value="Telewizja" class="tv-shop-button">
+                </div>
+                <div class="col-md-6">
+                    <input type="button" value="Sklep" class="tv-shop-button">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="tv">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="my-tv">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="stream">
+                                    <iframe class="content" src="https://www.youtube.com/embed/yU0iuQ-LXD0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="side">
+                                    <iframe class="item" src="https://www.youtube.com/embed/cUgBkJ_ehO0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                    <iframe class="item" src="https://www.youtube.com/embed/BUclfqYv5iY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                    <iframe class="item" src="https://www.youtube.com/embed/nNJWIsuNC4E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                    <iframe class="item" src="https://www.youtube.com/embed/el0j7MtDjAo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                    <iframe class="item" src="https://www.youtube.com/embed/u0c03UCEX4g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                    <iframe class="item" src="https://www.youtube.com/embed/aaLE5XZqo7s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <environment include="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+    </environment>
+    <environment exclude="Development">
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.3.1.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery"
+                crossorigin="anonymous"
+                integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT">
+        </script>
+        <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"
+                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                crossorigin="anonymous"
+                integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
+        </script>
+        <script src="~/js/site.min.js" asp-append-version="true"></script>
+    </environment>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
+
+
+<a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">DTV_App</a>
+
+<div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav">
+        <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+        <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
+        <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+    </ul>
+    <partial name="_LoginPartial" />
+</div>
+
+
+<partial name="_CookieConsentPartial" />
+
+
+@RenderBody()

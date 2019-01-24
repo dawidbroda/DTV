@@ -62,7 +62,7 @@ using DTV_App.Models;
             WriteLiteral("<!DOCTYPE html>\r\n<html>\r\n");
             EndContext();
             BeginContext(25, 978, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a712671129d54c8ea7a429be190aeb37", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6a818e2dfe5f48be83c8b4418f2bc717", async() => {
                 BeginContext(31, 901, true);
                 WriteLiteral(@"
     <meta charset=""UTF-8"">
@@ -79,7 +79,7 @@ using DTV_App.Models;
     ");
                 EndContext();
                 BeginContext(932, 62, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "c25c27bf72f44bf18c10b0fb1a38398d", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "f8af85a071994f3384e0900a53ee8fec", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -114,12 +114,12 @@ using DTV_App.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(1005, 1563, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "05e7415c0a8f4bc59cdb9ae4bb92b09e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f52e1fa6b2e342eebe9b190261f1c3ea", async() => {
                 BeginContext(1011, 204, true);
                 WriteLiteral("\r\n    <header class=\"my-header\">\r\n        <div class=\"container\">\r\n            <div class=\"row\">\r\n                <div class=\"col-md-12\">\r\n                    <div class=\"stuff\">\r\n                        ");
                 EndContext();
                 BeginContext(1215, 67, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "76366220f974434db46d7cb213a264e0", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "928fdcf047ee42df9eacbe8119c8bb00", async() => {
                     BeginContext(1273, 5, true);
                     WriteLiteral("About");
                     EndContext();

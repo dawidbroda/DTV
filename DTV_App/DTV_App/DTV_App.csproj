@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>aspnet-DTV_App-16539305-16B5-42FA-A2B4-9C4C29B0F6CC</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\admin-style.css" />
+    <None Include="wwwroot\css\style.css" />
+    <None Include="wwwroot\css\style.css.map" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Identity\Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Areas\Identity\Pages\_Layout.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

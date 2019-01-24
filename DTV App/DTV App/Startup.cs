@@ -23,19 +23,19 @@ namespace DTV_App
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
+        
         public void ConfigureServices(IServiceCollection services)
         {
-            //Key to DATABASE
+            
             var connectionString = @"Server=(localdb)\\MSSQLLocalDB;Database=DTVdb;Trusted_Connection=True;MultipleActiveResultSets=true";
 
-            //Connecting to DATABASE
+            
             services.AddDbContext<DB>(option =>
             option.UseSqlServer(connectionString, u => u.UseRowNumberForPaging()));
             
             services.Configure<CookiePolicyOptions>(options =>
             {
-                // This lambda determines whether user consent for non-essential cookies is needed for a given request.
+                
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
@@ -43,7 +43,7 @@ namespace DTV_App
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             if (env.IsDevelopment())

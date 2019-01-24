@@ -1,0 +1,38 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" conten="width=device-width, initial-scale=1">
+    <title>DTV</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+          crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="~/css/admin-style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Wszystkie filmy</a></li>
+                    <li><a href="#">Dodaj film</a></li>
+                </ul>
+            </div>
+            <div class="main">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+</body>
+</html>

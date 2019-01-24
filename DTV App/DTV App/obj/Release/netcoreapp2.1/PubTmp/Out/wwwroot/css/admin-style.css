@@ -1,0 +1,101 @@
+/* global for desktop */
+body {
+    margin: 0;
+    background-color: #383838;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+/* login */
+.content {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content .form {
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+    background-color: #202020;
+    -webkit-box-shadow: 0px 0px 27px 3px rgba(32,32,32,0.68);
+    -moz-box-shadow: 0px 0px 27px 3px rgba(32,32,32,0.68);
+    box-shadow: 0px 0px 27px 3px rgba(32,32,32,0.68);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content .form .login-style {
+    width: 350px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #DADADA;
+    text-align: center;
+}
+.content .form .login-button {
+    width: 150px;
+    height: 37px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(3, 145, 46);
+    text-align: center;
+}
+/* Admin Panel */
+/* Menu */
+.menu {
+    width: 200px;
+    min-height: 100px;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: #202020;
+    -webkit-box-shadow: 0px 0px 27px 3px rgba(32,32,32,0.68);
+    -moz-box-shadow: 0px 0px 27px 3px rgba(32,32,32,0.68);
+    box-shadow: 0px 0px 27px 3px rgba(32,32,32,0.68);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    padding-top: 15px;
+}
+.menu ul li, a {
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+}
+.menu ul li a:hover {
+    color: #949494;
+    text-decoration: none;
+}
+/* main admin panel */
+.main {
+    width: 700px;
+    min-height: 300px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 5px;
+    background-color: #202020;
+    -webkit-box-shadow: 0px 0px 27px 3px rgba(32,32,32,0.68);
+    -moz-box-shadow: 0px 0px 27px 3px rgba(32,32,32,0.68);
+    box-shadow: 0px 0px 27px 3px rgba(32,32,32,0.68);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main .input-style {
+    width: 350px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #DADADA;
+    text-align: center;
+}
