@@ -89,4 +89,12 @@ body {
     margin-left: 50px;
     margin-top: 50px;
 }
+
+/* Control panel manu */
+.menuControlPanel {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    list-style: none;
+}
 /*# sourceMappingURL=style.css.map */

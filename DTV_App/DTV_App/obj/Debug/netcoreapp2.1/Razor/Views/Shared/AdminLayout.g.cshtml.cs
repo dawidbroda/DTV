@@ -67,7 +67,7 @@ using DTV_App.Models;
             WriteLiteral("\r\n<!DOCTYPE html>\r\n<html>\r\n\r\n");
             EndContext();
             BeginContext(58, 984, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "63f8908311b6481bb417fd0419ba91cc", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b6dd4e88b889490fb7b30e69c9e24ca7", async() => {
                 BeginContext(64, 901, true);
                 WriteLiteral(@"
     <meta charset=""UTF-8"">
@@ -84,7 +84,7 @@ using DTV_App.Models;
     ");
                 EndContext();
                 BeginContext(965, 68, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "992162038b56439197607ffc99484edd", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "95cb83d206c64507b13235fb3cf350fe", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -119,7 +119,7 @@ using DTV_App.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(1044, 398, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9224215131424e8db2a95621f3ba6cfe", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f2c514e486754508b4f9ceb62b560cd3", async() => {
                 BeginContext(1050, 322, true);
                 WriteLiteral(@"
     <div class=""container"">
